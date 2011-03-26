@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2029A1A0133D976300853469 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2029A19F133D976300853469 /* Cocoa.framework */; };
-		2029A1AA133D976300853469 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2029A1A8133D976300853469 /* InfoPlist.strings */; };
-		2029A1AD133D976300853469 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2029A1AC133D976300853469 /* main.m */; };
-		2029A1B0133D976300853469 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2029A1AE133D976300853469 /* Credits.rtf */; };
-		2029A1B3133D976300853469 /* FinancialToolsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2029A1B2133D976300853469 /* FinancialToolsAppDelegate.m */; };
-		2029A1B6133D976300853469 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2029A1B4133D976300853469 /* MainMenu.xib */; };
+		2029A1BE133D979D00853469 /* FinancialToolsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2029A1BD133D979D00853469 /* FinancialToolsAppDelegate.m */; };
+		2029A1C0133D97A800853469 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2029A1BF133D97A800853469 /* main.m */; };
+		2029A1C3133D97AF00853469 /* FinancialTools-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2029A1C1133D97AF00853469 /* FinancialTools-Info.plist */; };
+		2029A1CA133D97B500853469 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2029A1C4133D97B500853469 /* Credits.rtf */; };
+		2029A1CB133D97B500853469 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2029A1C6133D97B500853469 /* InfoPlist.strings */; };
+		2029A1CC133D97B500853469 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2029A1C8133D97B500853469 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,14 @@
 		2029A1A2133D976300853469 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		2029A1A3133D976300853469 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2029A1A4133D976300853469 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		2029A1A7133D976300853469 /* FinancialTools-Info.plist */ = {isa = PBXFileReference; path = "FinancialTools-Info.plist"; sourceTree = "<group>"; };
-		2029A1A9133D976300853469 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2029A1AB133D976300853469 /* FinancialTools-Prefix.pch */ = {isa = PBXFileReference; path = "FinancialTools-Prefix.pch"; sourceTree = "<group>"; };
-		2029A1AC133D976300853469 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2029A1AF133D976300853469 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		2029A1B1133D976300853469 /* FinancialToolsAppDelegate.h */ = {isa = PBXFileReference; path = FinancialToolsAppDelegate.h; sourceTree = "<group>"; };
-		2029A1B2133D976300853469 /* FinancialToolsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinancialToolsAppDelegate.m; sourceTree = "<group>"; };
-		2029A1B5133D976300853469 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2029A1BC133D979D00853469 /* FinancialToolsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinancialToolsAppDelegate.h; sourceTree = "<group>"; };
+		2029A1BD133D979D00853469 /* FinancialToolsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinancialToolsAppDelegate.m; sourceTree = "<group>"; };
+		2029A1BF133D97A800853469 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2029A1C1133D97AF00853469 /* FinancialTools-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FinancialTools-Info.plist"; sourceTree = "<group>"; };
+		2029A1C2133D97AF00853469 /* FinancialTools-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FinancialTools-Prefix.pch"; sourceTree = "<group>"; };
+		2029A1C5133D97B500853469 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2029A1C7133D97B500853469 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2029A1C9133D97B500853469 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +83,8 @@
 		2029A1A5133D976300853469 /* FinancialTools */ = {
 			isa = PBXGroup;
 			children = (
-				2029A1B1133D976300853469 /* FinancialToolsAppDelegate.h */,
-				2029A1B2133D976300853469 /* FinancialToolsAppDelegate.m */,
-				2029A1B4133D976300853469 /* MainMenu.xib */,
+				2029A1BC133D979D00853469 /* FinancialToolsAppDelegate.h */,
+				2029A1BD133D979D00853469 /* FinancialToolsAppDelegate.m */,
 				2029A1A6133D976300853469 /* Supporting Files */,
 			);
 			path = FinancialTools;
@@ -93,11 +93,12 @@
 		2029A1A6133D976300853469 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				2029A1A7133D976300853469 /* FinancialTools-Info.plist */,
-				2029A1A8133D976300853469 /* InfoPlist.strings */,
-				2029A1AB133D976300853469 /* FinancialTools-Prefix.pch */,
-				2029A1AC133D976300853469 /* main.m */,
-				2029A1AE133D976300853469 /* Credits.rtf */,
+				2029A1C4133D97B500853469 /* Credits.rtf */,
+				2029A1C6133D97B500853469 /* InfoPlist.strings */,
+				2029A1C8133D97B500853469 /* MainMenu.xib */,
+				2029A1C1133D97AF00853469 /* FinancialTools-Info.plist */,
+				2029A1C2133D97AF00853469 /* FinancialTools-Prefix.pch */,
+				2029A1BF133D97A800853469 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -149,9 +150,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2029A1AA133D976300853469 /* InfoPlist.strings in Resources */,
-				2029A1B0133D976300853469 /* Credits.rtf in Resources */,
-				2029A1B6133D976300853469 /* MainMenu.xib in Resources */,
+				2029A1C3133D97AF00853469 /* FinancialTools-Info.plist in Resources */,
+				2029A1CA133D97B500853469 /* Credits.rtf in Resources */,
+				2029A1CB133D97B500853469 /* InfoPlist.strings in Resources */,
+				2029A1CC133D97B500853469 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,34 +164,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2029A1AD133D976300853469 /* main.m in Sources */,
-				2029A1B3133D976300853469 /* FinancialToolsAppDelegate.m in Sources */,
+				2029A1BE133D979D00853469 /* FinancialToolsAppDelegate.m in Sources */,
+				2029A1C0133D97A800853469 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2029A1A8133D976300853469 /* InfoPlist.strings */ = {
+		2029A1C4133D97B500853469 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2029A1A9133D976300853469 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		2029A1AE133D976300853469 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2029A1AF133D976300853469 /* en */,
+				2029A1C5133D97B500853469 /* en */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		2029A1B4133D976300853469 /* MainMenu.xib */ = {
+		2029A1C6133D97B500853469 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2029A1B5133D976300853469 /* en */,
+				2029A1C7133D97B500853469 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2029A1C8133D97B500853469 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2029A1C9133D97B500853469 /* en */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
