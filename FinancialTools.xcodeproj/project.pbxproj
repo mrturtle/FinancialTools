@@ -1,0 +1,285 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2029A1A0133D976300853469 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2029A19F133D976300853469 /* Cocoa.framework */; };
+		2029A1AA133D976300853469 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2029A1A8133D976300853469 /* InfoPlist.strings */; };
+		2029A1AD133D976300853469 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2029A1AC133D976300853469 /* main.m */; };
+		2029A1B0133D976300853469 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2029A1AE133D976300853469 /* Credits.rtf */; };
+		2029A1B3133D976300853469 /* FinancialToolsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2029A1B2133D976300853469 /* FinancialToolsAppDelegate.m */; };
+		2029A1B6133D976300853469 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2029A1B4133D976300853469 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2029A19B133D976300853469 /* FinancialTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancialTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2029A19F133D976300853469 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2029A1A2133D976300853469 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2029A1A3133D976300853469 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2029A1A4133D976300853469 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2029A1A7133D976300853469 /* FinancialTools-Info.plist */ = {isa = PBXFileReference; path = "FinancialTools-Info.plist"; sourceTree = "<group>"; };
+		2029A1A9133D976300853469 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2029A1AB133D976300853469 /* FinancialTools-Prefix.pch */ = {isa = PBXFileReference; path = "FinancialTools-Prefix.pch"; sourceTree = "<group>"; };
+		2029A1AC133D976300853469 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2029A1AF133D976300853469 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2029A1B1133D976300853469 /* FinancialToolsAppDelegate.h */ = {isa = PBXFileReference; path = FinancialToolsAppDelegate.h; sourceTree = "<group>"; };
+		2029A1B2133D976300853469 /* FinancialToolsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinancialToolsAppDelegate.m; sourceTree = "<group>"; };
+		2029A1B5133D976300853469 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2029A198133D976300853469 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2029A1A0133D976300853469 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2029A190133D976300853469 = {
+			isa = PBXGroup;
+			children = (
+				2029A1A5133D976300853469 /* FinancialTools */,
+				2029A19E133D976300853469 /* Frameworks */,
+				2029A19C133D976300853469 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2029A19C133D976300853469 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2029A19B133D976300853469 /* FinancialTools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2029A19E133D976300853469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2029A19F133D976300853469 /* Cocoa.framework */,
+				2029A1A1133D976300853469 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2029A1A1133D976300853469 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2029A1A2133D976300853469 /* AppKit.framework */,
+				2029A1A3133D976300853469 /* CoreData.framework */,
+				2029A1A4133D976300853469 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2029A1A5133D976300853469 /* FinancialTools */ = {
+			isa = PBXGroup;
+			children = (
+				2029A1B1133D976300853469 /* FinancialToolsAppDelegate.h */,
+				2029A1B2133D976300853469 /* FinancialToolsAppDelegate.m */,
+				2029A1B4133D976300853469 /* MainMenu.xib */,
+				2029A1A6133D976300853469 /* Supporting Files */,
+			);
+			path = FinancialTools;
+			sourceTree = "<group>";
+		};
+		2029A1A6133D976300853469 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2029A1A7133D976300853469 /* FinancialTools-Info.plist */,
+				2029A1A8133D976300853469 /* InfoPlist.strings */,
+				2029A1AB133D976300853469 /* FinancialTools-Prefix.pch */,
+				2029A1AC133D976300853469 /* main.m */,
+				2029A1AE133D976300853469 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2029A19A133D976300853469 /* FinancialTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2029A1B9133D976300853469 /* Build configuration list for PBXNativeTarget "FinancialTools" */;
+			buildPhases = (
+				2029A197133D976300853469 /* Sources */,
+				2029A198133D976300853469 /* Frameworks */,
+				2029A199133D976300853469 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FinancialTools;
+			productName = FinancialTools;
+			productReference = 2029A19B133D976300853469 /* FinancialTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2029A192133D976300853469 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2029A195133D976300853469 /* Build configuration list for PBXProject "FinancialTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2029A190133D976300853469;
+			productRefGroup = 2029A19C133D976300853469 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2029A19A133D976300853469 /* FinancialTools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2029A199133D976300853469 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2029A1AA133D976300853469 /* InfoPlist.strings in Resources */,
+				2029A1B0133D976300853469 /* Credits.rtf in Resources */,
+				2029A1B6133D976300853469 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2029A197133D976300853469 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2029A1AD133D976300853469 /* main.m in Sources */,
+				2029A1B3133D976300853469 /* FinancialToolsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2029A1A8133D976300853469 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2029A1A9133D976300853469 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2029A1AE133D976300853469 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2029A1AF133D976300853469 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2029A1B4133D976300853469 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2029A1B5133D976300853469 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2029A1B7133D976300853469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2029A1B8133D976300853469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2029A1BA133D976300853469 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinancialTools/FinancialTools-Prefix.pch";
+				INFOPLIST_FILE = "FinancialTools/FinancialTools-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2029A1BB133D976300853469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FinancialTools/FinancialTools-Prefix.pch";
+				INFOPLIST_FILE = "FinancialTools/FinancialTools-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2029A195133D976300853469 /* Build configuration list for PBXProject "FinancialTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2029A1B7133D976300853469 /* Debug */,
+				2029A1B8133D976300853469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2029A1B9133D976300853469 /* Build configuration list for PBXNativeTarget "FinancialTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2029A1BA133D976300853469 /* Debug */,
+				2029A1BB133D976300853469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2029A192133D976300853469 /* Project object */;
+}
